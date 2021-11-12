@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <button onClick={onButtonClick}>Open Modal</button>
-      <Modal {...{ show, onClose }} centered>
+      <Modal {...{ show, onClose }} positionClassName="br">
         <h1>Hello World</h1>
         <button onClick={onClose}>Close</button>
       </Modal>
